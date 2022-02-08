@@ -2,6 +2,10 @@
 @import 'bulma';
 @import "overrides";
 
+html {
+  scroll-behavior: smooth;
+}
+
 .author-image {
   figure {
     img {
@@ -18,4 +22,22 @@
 .image.is-slightly-rounded img {
   border-radius: 1em;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.has-background-gradient-animation {
+  background: linear-gradient(-45deg, #e2947d, #da8ba9, #8cc8dd, #87d4c2);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }
