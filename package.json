@@ -1,0 +1,17 @@
+{
+  "name": "magnoliametrics.com",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "live-server": "^1.2.1",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.2.1"
+  }
+}

@@ -1,0 +1,43 @@
+@import "variables";
+@import 'bulma';
+@import "overrides";
+
+html {
+  scroll-behavior: smooth;
+}
+
+.author-image {
+  figure {
+    img {
+      height: auto;
+      object-fit: cover;
+      width: auto;
+      margin: 0 auto;
+      max-height: 300px;
+    }
+  }
+  margin: 2em 0;
+}
+
+.image.is-slightly-rounded img {
+  border-radius: 1em;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.has-background-gradient-animation {
+  background: linear-gradient(-45deg, #d4e7d1, #75b576, #57c467, #25b943);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
+}
