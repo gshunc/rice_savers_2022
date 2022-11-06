@@ -44,10 +44,16 @@
     <p><input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none"></p>
     <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p>
     <h1><label for="file" style="cursor: pointer">
-      <center><font size="+3">Upload Image</font></center>
+      <center><font size="+3">Upload Image
+       
+      </font></center>
     </label></h1>
     <center><p><img id="output" width="600"></p></center>
-
+    <center>
+      if(){
+        <p class="text-center"> Your plant is infected with {{prediction}} </p>
+     }
+    </center>
     <script>var loadFile = function(event) {
     var image = document.getElementById("output");
     image.src = URL.createObjectURL(event.target.files[0]);

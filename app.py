@@ -12,7 +12,6 @@ def predict():
     imagefile = request.files['imagefile']
     image_path = "./images/" + imagefile.filename
     imagefile.save(image_path)
-
     return render_template('index.html')
 
 
