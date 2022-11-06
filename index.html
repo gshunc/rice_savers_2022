@@ -5,8 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Magnola Metrics</title>
-
+  <title>Rice Savers</title>
   <link rel="stylesheet" href="assets/scss/style.scss" />
 </head>
 
@@ -17,7 +16,7 @@
         <div class="container">
           <div class="navbar-brand">
             <a class="navbar-item is-size-5 has-text-weight-bold" href="/">
-              Magnolia Metrics
+              Rice Savers
             </a>
             <span class="navbar-burger burger" data-target="navbarMenu">
               <span></span>
@@ -25,38 +24,44 @@
               <span></span>
             </span>
           </div>
-          <div id="navbarMenu" class="navbar-menu">
-            <div class="navbar-end">
-              <a class="navbar-item is-active" href="/">Home</a>
-              <a class="navbar-item" href="#about">About</a>
-              <a class="navbar-item" href="#pricing">Pricing</a>
-              <a class="navbar-item" href="#team">Team</a>
-              <a class="navbar-item" href="/contact.html">Contact</a>
-            </div>
-          </div>
         </div>
       </nav>
     </div>
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title is-1">
-          Rice Saver
+          Rice Savers
         </h1>
         <h2 class="subtitle">
-          Utilizing strategic approaches to make your website come alive.
+          AI Solutions to Rice Crop Disease.
         </h2>
         <a class="button is-primary is-medium" href="/contact.html">Learn More</a>
         </a>
       </div>
     </div>
   </section>
+  <section>
+    <p><input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"></p>
+    <p>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp</p>
+    <h1><label for="file" style="cursor: pointer;">
+      <center><font size = +3>Upload Image</font></center>
+    </label></h1>
+    <center><p><img id="output" width="600" /></p></center>
+
+    <script>
+      var loadFile = function(event) {
+	    var image = document.getElementById('output');
+	    image.src = URL.createObjectURL(event.target.files[0]);
+      };
+    </script>
+  </section>
   <section class="section is-medium has-text-centered">
     <div class="container is-max-desktop">
       <h2 class="subtitle is-uppercase is-6">
-        What we believe in
+        What we believe in:
       </h2>
       <h1 class="title">
-        From blogs and menus to any website, at Magnolia Metrics, we help tell your story to the world.
+        AI is a powerful tool that can be leveraged towards many ends. We believe that the power of AI can be harnessed to strengthen agricultural production around the world, and can make a difference in many lives.
       </h1>
     </div>
   </section>
@@ -68,17 +73,15 @@
             About
           </h2>
           <h1 class="title">
-            What is Magnolia Metrics?
+            What is Rice Savers?
           </h1>
           <p>
-            We are a digital marketing and design company based in Lexington, South Carolina. We partner with 
-            companies looking to either completely build a new website, or to help improve already existing 
-            websites, so that you can showcase your best work, in the best way possible.
+            We are a an AI company founded and created at HackNC 2022. Created with the goal of empowering farmers to spot disease, our company is taking on the task of creating AI solutions to the issue of disease. By simply submitting an image of your crop you suspect may have disease, our product can tell you if the crop is diseased and tell you the type of disease.
           </p>
         </div>
         <div class="column is-one-half">
           <figure class="image is-slightly-rounded">
-            <img src="https://uploads-ssl.webflow.com/619f0b0ccc847f072bf36c71/61edd08b3b330e41b7665136_magnolia_trees_x1.jpg" alt="">
+            <img src="https://images.pexels.com/photos/164504/pexels-photo-164504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="">
           </figure>
         </div>
       </div>
@@ -89,7 +92,7 @@
       <div class="columns is-variable is-8">
         <div class="column is-one-half">
           <figure class="image is-slightly-rounded">
-            <img src="https://uploads-ssl.webflow.com/619f0b0ccc847f072bf36c71/61ede13886a3de6fc88472ed_Magnolia%20Tree%202.jpeg" alt="">
+            <img src= "https://i0.hippopx.com/photos/447/965/68/farm-rice-field-asian-preview.jpg" alt="">
           </figure>
         </div>
         <div class="column is-one-half">
@@ -100,89 +103,13 @@
             What we do
           </h1>
           <p>
-            Because every website has different needs, we offer flexible pricing options for each client. 
-            Contact us now to get a quote!
+            Because every farmer has different needs, we offer flexible pricing options for each client. 
+            Contact us now for prices!
           </p>
         </div>
       </div>
     </div>
   </section>
-  <section class="section has-background-light" id="team">
-    <div class="container is-max-desktop has-text-centered">
-      <h2 class="subtitle is-uppercase is-6">
-        Team
-      </h2>
-      <h1 class="title">
-        Meet the Members
-      </h1>
-      <div class="columns is-variable">
-        <div class="column is-one-half">
-          <div class="author-image">
-            <figure class="image is-slightly-rounded">
-              <img class="is-2by3" src="https://uploads-ssl.webflow.com/619f0b0ccc847f072bf36c71/61f2253e7de6eaf2df1896ec_IMG_3075-p-1080.png" alt="">
-            </figure>
-          </div>
-          <h1 class="title">
-            Milan Dutta
-          </h1>
-          <h2 class="subtitle">
-            Founder & CEO
-          </h2>
-          <p>
-            Milan Dutta is high school senior based in Lexington, SC. Prior to web design, he competed and won a 
-            programming challenge, in which he met with Congressman Joe Wilson, creating an app that helps students 
-            with their biology work. He also created a digital marketing agency, in which he helped multiple realtors 
-            earn thousands of dollars, through the utilization of Facebook Advertising. With his experience, he is 
-            ready and excited to launch Magnolia Metrics.
-          </p>
-        </div>
-        <div class="column is-one-half">
-          <div class="author-image">
-            <figure class="image is-slightly-rounded">
-              <img class="is-2by3" src="https://uploads-ssl.webflow.com/619f0b0ccc847f072bf36c71/61f15315aab7fbb95d3c1e13_Ian%20Mono%20Background%20Picture.png" alt="">
-            </figure>
-          </div>
-          <h1 class="title">
-            Ian Kruger
-          </h1>
-          <h2 class="subtitle">
-            Director of Operations
-          </h2>
-          <p>
-            Ian Kruger is a high school senior based in Lexington, SC. Prior to his role in operations, he competed 
-            and was a finalist in the NFTE World Series of Innovation competition, where he proposed solutions for 
-            small businesses to adopt, in order to tackle climate change. He also has worked on multiple creative 
-            design projects, including scripting and directing an hour long short film, as well as engineering music 
-            with various local artists. With his experience, he is excited to operate the company.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="hero is-medium has-background-gradient-animation has-text-centered">
-    <div class="hero-body container is-max-desktop">
-      <h1 class="title">
-        Grow your business.
-      </h1>
-      <h2 class="subtitle">
-        Today is the day to build the business of your dreams. Share your mission with the world — and blow your customers away.
-      </h2>
-      <a href="" class="button is-medium"href="/contact.html">Contact</a>
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="container">
-      <div class="has-text-centered">
-        <p>
-          Copyright &copy; <script>document.write(new Date().getFullYear())</script>
-          <a href="/">
-            Magnolia Metrics
-          </a>
-        </p>
-      </div>
-    </div>
-    <script src="/assets/js/main.js"></script>
-  </footer>
 </body>
 
 </html>
