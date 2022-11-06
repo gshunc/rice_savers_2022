@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 node_modules/
 .parcel-cache/
 dist/
+=======
+/templates
+>>>>>>> 66b73d8967a493ee7eda5fab355b41b70bb6d048
